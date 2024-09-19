@@ -88,3 +88,7 @@ button {
     font-weight: bolder;
     color:rgb(35, 239, 35);  
 }
+button:hover
+{
+    background-color: green;
+}
