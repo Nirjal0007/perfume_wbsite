@@ -19,7 +19,7 @@
     max-width: 600px;
     background-color: rgb(255, 255, 255);
     padding: 0px;
-    margin: 0px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -107,39 +107,43 @@ button:hover
     .wrapper {
         flex-direction: column;
         align-items: center;
-        width: 100%; /* Full width for mobile */
+        width: 100%;
+        border-radius: 20px;
+        padding: 0px;
+        margin: 20px;
     }
 
     img {
         width: 100%;
         margin: 0px;
         padding: 0px;
-        border-radius: 0px;
+        border-radius: 20px 20px 0 0;
     }
 
     .text-content {
         margin-left: 0;
         padding-top: 0;
-        text-align: center; /* Center text for mobile */
+        text-align: center;
     }
 
     #dolar {
-        font-size: 40px; /* Reduce the price font size for mobile */
+        font-size: 40px;
     }
 
     button {
-        width: 100%; /* Full width button for mobile */
-        font-size: 18px;
+        width: 90%; 
+        font-size: 16px;
+        padding: 16px;
     }
 }
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 24px; /* Smaller heading for mobile */
+        font-size: 24px;
     }
 
     #dolar {
-        font-size: 36px; /* Smaller price text */
+        font-size: 36px; 
     }
 
     button {
